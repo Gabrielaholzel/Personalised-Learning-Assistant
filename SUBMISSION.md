@@ -139,16 +139,16 @@ All agent code is provided in the Technical Implementation section below and can
                          │
                          ▼
 ┌─────────────────────────────────────────────────────────────┐
-│                   ORCHESTRATION LAYER                        │
-│                  (LearningOrchestrator)                      │
-│                                                              │
+│                   ORCHESTRATION LAYER                       │
+│                  (LearningOrchestrator)                     │
+│                                                             │
 │  Sequential Workflow:                                       │
-│  1. Load user progress → Get difficulty level              │
-│  2. Research Agent → Fetch & summarise                     │
-│  3. Content Agent → Generate learning plan                 │
-│  4. Quiz Agent → Create adaptive quiz                      │
-│  5. Evaluate answers → Update progress                     │
-│  6. Adapt difficulty → Save state                          │
+│  1. Load user progress → Get difficulty level               │
+│  2. Research Agent → Fetch & summarise                      │
+│  3. Content Agent → Generate learning plan                  │
+│  4. Quiz Agent → Create adaptive quiz                       │
+│  5. Evaluate answers → Update progress                      │
+│  6. Adapt difficulty → Save state                           │
 └────────────────────────┬────────────────────────────────────┘
                          │
          ┌───────────────┼───────────────┐
