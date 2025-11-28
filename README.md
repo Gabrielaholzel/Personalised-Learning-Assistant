@@ -1,4 +1,4 @@
-# 🎓 Personalised Learning Assistant
+# Personalised Learning Assistant
 
 An AI-powered adaptive learning system built with Google ADK concepts that creates customised learning experiences based on user progress and performance.
 
@@ -7,11 +7,11 @@ An AI-powered adaptive learning system built with Google ADK concepts that creat
 
 ---
 
-## 🌟 Overview
+## Overview
 
 This project demonstrates a complete multi-agent AI system for personalised education, incorporating concepts from the Google Agent Development Kit (ADK) course. The system uses four specialised agents working together to create adaptive learning experiences.
 
-## 🎯 Problem Statement
+## Problem Statement
 
 Traditional online learning platforms offer one-size-fits-all content that doesn't adapt to individual learning pace or comprehension levels. Students often:
 - Struggle with content that's too advanced or too basic
@@ -28,7 +28,7 @@ This results in:
 **Why This Matters:**
 With the explosion of online learning, there's a critical need for intelligent systems that can adapt to each learner's unique pace and style, making education more accessible and effective.
 
-## 💡 Solution
+## Solution
 
 An AI-powered multi-agent system that creates fully customised learning experiences by:
 1. **Researching** topics from reliable sources (Wikipedia)
@@ -46,20 +46,20 @@ Agents are uniquely suited for this problem because:
 - **Adaptability**: The system learns from user performance and adjusts in real-time
 - **Scalability**: Easy to add new agents (e.g., video content, peer matching)
 
-## 🏗️ Architecture
+## Architecture
 
 ```
 ┌─────────────────────────────────────────────────────────────┐
-│                   ORCHESTRATION LAYER                        │
-│                  (LearningOrchestrator)                      │
-│                                                              │
+│                   ORCHESTRATION LAYER                       │
+│                  (LearningOrchestrator)                     │
+│                                                             │
 │  Sequential Workflow:                                       │
-│  1. Load user progress → Get difficulty level              │
-│  2. Research Agent → Fetch & summarise                     │
-│  3. Content Agent → Generate learning plan                 │
-│  4. Quiz Agent → Create adaptive quiz                      │
-│  5. Evaluate answers → Update progress                     │
-│  6. Adapt difficulty → Save state                          │
+│  1. Load user progress → Get difficulty level               │
+│  2. Research Agent → Fetch & summarise                      │
+│  3. Content Agent → Generate learning plan                  │
+│  4. Quiz Agent → Create adaptive quiz                       │
+│  5. Evaluate answers → Update progress                      │
+│  6. Adapt difficulty → Save state                           │
 └────────────────────────┬────────────────────────────────────┘
                          │
          ┌───────────────┼───────────────┐
@@ -118,7 +118,7 @@ The system automatically adjusts difficulty based on quiz performance using the 
 - **Intermediate**: 70-84% average score  
 - **Advanced**: ≥ 85% average score
 
-## 🚀 Quick Start
+## Quick Start
 
 ### Prerequisites
 - Python 3.8 or higher
@@ -128,7 +128,7 @@ The system automatically adjusts difficulty based on quiz performance using the 
 
 ```bash
 # Clone the repository
-git clone <repository-url>
+git clone https://github.com/Gabrielaholzel/Personalised-Learning-Assistant/
 cd Personalised-Learning-Assistant
 
 # Install dependencies
@@ -171,7 +171,7 @@ results = orchestrator.evaluate_quiz(
 )
 ```
 
-## 📁 Project Structure
+## Project Structure
 
 ```
 Personalised-Learning-Assistant/
@@ -201,7 +201,7 @@ Personalised-Learning-Assistant/
 └── LICENCE                    # MIT License
 ```
 
-## 🎓 ADK Course Concepts Demonstrated
+## ADK Course Concepts Demonstrated
 
 ### Day 1: Agent Basics & Architecture ✅
 - Multi-agent system design
@@ -230,15 +230,15 @@ Personalised-Learning-Assistant/
 
 ## 🛠️ Technology Stack
 
-| Component | Technology |
-|-----------|-----------|
-| Language | Python 3.8+ |
-| AI/LLM | Google Gemini Pro |
-| Data Source | Wikipedia API |
-| Storage | JSON (local file) |
-| Environment | python-dotenv |
+|  Component  |     Technology     |
+|-------------|--------------------|
+| Language    | Python 3.8+        |
+| AI/LLM      | Google Gemini Pro  |
+| Data Source | Wikipedia API      |
+| Storage     | JSON (local file)  |
+| Environment | python-dotenv      |
 
-## 📊 Performance Metrics
+## Performance Metrics
 
 - **Response Time**: 10-20s for complete package
 - **Quiz Evaluation**: < 2s
@@ -246,7 +246,7 @@ Personalised-Learning-Assistant/
 - **API Efficiency**: 4 calls per package
 - **Storage**: Lightweight JSON format
 
-## 💎 Value Proposition
+## Value Proposition
 
 - ✅ **Reduces learning time** by 30-40% through adaptive difficulty
 - ✅ **Increases retention** through personalised pacing
@@ -259,7 +259,7 @@ Personalised-Learning-Assistant/
 - With this system: 15-20 seconds for complete package
 - **Time saved: ~90%**
 
-## 🚧 Future Enhancements
+## Future Enhancements
 
 **Phase 1: Enhanced Content**
 - Video content integration (YouTube API)
@@ -281,18 +281,18 @@ Personalised-Learning-Assistant/
 - Advanced analytics dashboard
 - Integration with LMS platforms
 
-## 📚 Documentation
+## Documentation
 
 - **README.md**: This file - project overview
 - **docs/GETTING_STARTED.md**: Quick start guide
 - **docs/SUBMISSION.md**: Complete capstone writeup
 - **tests/README.md**: Testing documentation
 
-## 📝 Licence
+## Licence
 
 MIT Licence - Feel free to use and modify
 
-## 👨‍💻 Author
+## Author
 
 Built as a Capstone Project for the Google Agent Development Kit (ADK) 5-Day Course.
 
