@@ -13,7 +13,7 @@ class Config:
     GEMINI_API_KEY = os.getenv("GEMINI_API_KEY", "")
     
     # Model Configuration
-    MODEL_NAME = "gemini-pro"
+    MODEL_NAME = "gemini-2.5-flash"
     
     # Quiz Configuration
     DEFAULT_NUM_QUESTIONS = 5
