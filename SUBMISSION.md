@@ -129,12 +129,12 @@ All agent code is provided in the Technical Implementation section below and can
 
 ```
 ┌─────────────────────────────────────────────────────────────┐
-│                     USER INTERFACE LAYER                     │
-│                      (Streamlit App)                         │
-│  ┌──────────┐  ┌──────────┐  ┌──────────┐  ┌──────────┐   │
-│  │   Home   │  │ Learning │  │   Quiz   │  │ Progress │   │
-│  │   Tab    │  │ Plan Tab │  │   Tab    │  │   Tab    │   │
-│  └──────────┘  └──────────┘  └──────────┘  └──────────┘   │
+│                     USER INTERFACE LAYER                    │
+│                      (Streamlit App)                        │
+│  ┌──────────┐  ┌──────────┐  ┌──────────┐  ┌──────────┐     │
+│  │   Home   │  │ Learning │  │   Quiz   │  │ Progress │     │
+│  │   Tab    │  │ Plan Tab │  │   Tab    │  │   Tab    │     │
+│  └──────────┘  └──────────┘  └──────────┘  └──────────┘     │
 └────────────────────────┬────────────────────────────────────┘
                          │
                          ▼
