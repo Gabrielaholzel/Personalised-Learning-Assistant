@@ -176,29 +176,29 @@ results = orchestrator.evaluate_quiz(
 ```
 Personalised-Learning-Assistant/
 ├── learning_assistant/          # Main Python package
-│   ├── orchestrator.py         # Main workflow coordinator
-│   ├── config.py               # Configuration settings
-│   ├── tools.py                # Utility functions
-│   └── agents/                 # Individual agents
+│   ├── orchestrator.py          # Main workflow coordinator
+│   ├── config.py                # Configuration settings
+│   ├── tools.py                 # Utility functions
+│   └── agents/                  # Individual agents
 │       ├── research_agent.py
 │       ├── content_agent.py
 │       ├── quiz_agent.py
 │       └── personalisation_engine.py
 │
-├── tests/                      # Integration tests
+├── tests/                       # Integration tests
 │   ├── test_agent.py
 │   └── README.md
 │
-├── docs/                       # Documentation
+├── docs/                        # Documentation
 │   ├── GETTING_STARTED.md
 │   └── SUBMISSION.md
 │
-├── README.md                   # This file
-├── example_usage.py            # Example script
-├── requirements.txt            # Dependencies
-├── .env.example               # Environment template
-├── .gitignore                 # Git ignore rules
-└── LICENCE                    # MIT License
+├── README.md                    # This file
+├── example_usage.py             # Example script
+├── requirements.txt             # Dependencies
+├── .env.example                 # Environment template
+├── .gitignore                   # Git ignore rules
+└── LICENCE                      # MIT License
 ```
 
 ## ADK Course Concepts Demonstrated
