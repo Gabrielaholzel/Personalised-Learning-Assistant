@@ -1,7 +1,6 @@
 """Content Agent - Generates personalised learning plans and lessons."""
 
 import google.generativeai as genai
-from typing import str as String
 
 from learning_assistant.config import config
 
