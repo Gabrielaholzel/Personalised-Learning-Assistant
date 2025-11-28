@@ -553,4 +553,4 @@ The Personalised Learning Assistant demonstrates the power of multi-agent AI sys
 
 **Submission Date:** November 2025  
 **Track:** Education in Good Agentic AI  
-**Author:** (Gabriela Holzel](https://www.linkedin.com/in/gabrielaholzel/)
+**Author:** [Gabriela Holzel](https://www.linkedin.com/in/gabrielaholzel/)
