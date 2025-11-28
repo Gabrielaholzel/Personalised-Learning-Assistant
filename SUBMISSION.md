@@ -549,13 +549,8 @@ The Personalised Learning Assistant demonstrates the power of multi-agent AI sys
 
 **Project Status:** Production Ready ✅
 
-**Repository:** [Add your repository URL here]
-
-**Live Demo:** [Add your demo URL here if deployed]
-
 ---
 
 **Submission Date:** November 2025  
 **Track:** Education in Good Agentic AI  
-**Author:** [Your Name]  
-**Contact:** [Your Email]
+**Author:** (Gabriela Holzel](https://www.linkedin.com/in/gabrielaholzel/)
